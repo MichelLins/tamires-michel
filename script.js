@@ -1,5 +1,5 @@
 function updateCountdown() {
-    const startDate = new Date('2024-08-10T00:00:00');
+    const startDate = new Date('2024-08-12T00:00:00');
     const now = new Date();
     const diff = now - startDate;
     const years = Math.floor(diff / (1000 * 60 * 60 * 24 * 365));
